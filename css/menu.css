@@ -13,7 +13,7 @@
 			
 /*First level styles */			
 .main-menu > ul > li > a {color: #333; padding: 15px 10px 15px  10px; font-size:14px; margin:0; font-weight:500;}
-.main-menu > ul > li:hover > a {color: #ed5434;}
+.main-menu > ul > li:hover > a {color: #9c090b;}
 
 /* Opacity mask when left open */
 .layer {display: none; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 100; min-height: 100%; background-color: #000; opacity: 0; z-index:9;}
@@ -50,7 +50,7 @@ a.dropdown-toggle.icon-search{display: inline-block;}
 .main-menu ul ul li a {font-size: 13px;color: #666;border-bottom:1px solid #ededed;display: block;}
 .main-menu ul ul li:last-child a {border-bottom:none;}
 
-.main-menu ul ul li:hover > a {background-color:#f9f9f9;color:#ed5434; padding-left:15px;}
+.main-menu ul ul li:hover > a {background-color:#f9f9f9;color:#9c090b; padding-left:15px;}
 
 .main-menu ul .menu-wrapper ul {position: relative;display:block;}
 .main-menu ul .menu-wrapper ul {margin-bottom:15px;left: 0;}
@@ -732,4 +732,35 @@ a#close_in {display:block;position:absolute;right:15px;top:10px;width:20px;heigh
   font-weight: normal;
   line-height: 1;
   content: "\f005" !important;
+}
+
+.atk-cell.atk-form-field input,.atk-cell.atk-form-field textarea{
+  width: 100%;
+  padding: 4px 10px;
+  background-color: white;
+  border: 2px solid #f3f3f3;
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.atk-cell.atk-form-field input:focus,
+.atk-cell.atk-form-field textarea:focus{
+  border: 2px solid #9c090b;
+}
+
+.contactform .atk-button{
+  background-color: #9c090b;
+  padding: 10px;
+  color: white;
+  border:2px solid #deb138;
+  margin-top:10px; 
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.contactform .atk-button:focus,.contactform .atk-button:hover{
+  background-color: #deb138;
+  border:2px solid #9c090b;
+  font-weight: bold;
+  color: #9c090b;
 }
