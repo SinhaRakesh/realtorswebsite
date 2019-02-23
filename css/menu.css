@@ -684,7 +684,7 @@ a#close_in {display:block;position:absolute;right:15px;top:10px;width:20px;heigh
 
 .homeslider.carousel_in .image img{
   width: 100%;
-  max-height:500px;
+  max-height:450px;
 }
 
 .homeslider.carousel_in .owl-controls .owl-dots{
@@ -698,4 +698,38 @@ a#close_in {display:block;position:absolute;right:15px;top:10px;width:20px;heigh
 
 .btn-theme{
   background-color: #9c090b;
+}
+
+.btn-outline{
+  font-family:Poppins,Arial,sans-serif;
+  color: white;
+  border-left:1px solid #deb138;
+  border-right:1px solid #deb138;
+  margin-left:5px; 
+  border-radius:0px 0px 15px 15px;
+  -webkit-transition:all 0.3s;
+  -moz-transition:all 0.3s;
+  transition:all 0.3s;
+}
+
+.btn-outline:hover{
+  background:#deb138;
+  color: #9c090b;
+  border:1px solid #9c090b;
+  -webkit-transition:all 0.3s;
+  -moz-transition:all 0.3s;
+  transition:all 0.3s;
+}
+
+.goldencolor{
+  color:#deb138;
+}
+
+.br-theme-bootstrap-stars .br-widget a::after{
+  content: '';
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  content: "\f005" !important;
 }
