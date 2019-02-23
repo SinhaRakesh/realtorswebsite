@@ -7,12 +7,14 @@
   .owl-theme .owl-nav .owl-prev{
 position:absolute; left:2%; width:50px; height:50px;}
   .owl-theme .owl-nav .owl-next{
-position:absolute; right:2%;width:50px; height:50px;}
+  position:absolute; right:2%;width:50px; height:50px;
+  /*background:#990003;*/
+}
   .owl-theme .owl-nav [class*='owl-'] {
     color: #FFF;
     font-size: 36px;
     margin: 5px;
-    background: rgba(0,0,0,0.5);
+    background:#9c090b;
     display: inline-block;
     cursor: pointer;
     -webkit-border-radius: 50%;
@@ -29,7 +31,7 @@ content:"\e89a"; left:-2px; position:relative;}
 	  .owl-theme .owl-nav .owl-next:before{
 		  content:"\e89b"; right:-2px; position:relative;}
     .owl-theme .owl-nav [class*='owl-']:hover {
-      background: rgba(0,0,0,0.8);}
+      background: rgba(156,9,11,0.5);}
   .owl-theme .owl-nav .disabled {
     opacity: 0.5;
     cursor: default; }

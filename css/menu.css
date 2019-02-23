@@ -681,3 +681,21 @@ a#close_in {display:block;position:absolute;right:15px;top:10px;width:20px;heigh
 .padding_bottom_0{
   padding-bottom: 0px !important;
 }
+
+.homeslider.carousel_in .image img{
+  width: 100%;
+  max-height:500px;
+}
+
+.homeslider.carousel_in .owl-controls .owl-dots{
+  display: none !important;
+}
+
+.homeslider.carousel_in .item-specific{
+  /*top:40%;*/
+  /*left:0;*/
+}
+
+.btn-theme{
+  background-color: #9c090b;
+}
