@@ -36,7 +36,10 @@
 	  	{/}
 	</div>
 
-	<h1 class="main_title_in">{$title} <span class="label label-info theme-bg-color">{$property_type} - {$property_status}</span></h1>
+	<h1 class="main_title_in">
+		{$title} <span class="label label-info theme-bg-color">{$property_type} - {$property_status}</span>
+		<p style="font-size:18px;margin-top:18px; "><i class=" icon_set_1_icon-41"></i>&nbsp;{$address} {$city} {$state}</p>
+	</h1>
 
 	<div class="container add_bottom_60">
         
@@ -134,6 +137,32 @@
 	                </div>
 	                <div class="col-md-9">
 	                	{$policies}
+	                </div>
+	            </div>
+	            <hr>
+	            {/}
+
+	            {location}
+	            <div class="row">
+	            	<div class="col-md-3">
+	                    <h3>Location</h3>
+	                </div>
+	                <div class="col-md-9">
+	                	<h4>{$address}</h4><hr>
+	                	<div class="row">
+	                		<div class="col-md-4">
+			                	<h4>{$city}</h4>
+		                    	City
+	                		</div>
+	                		<div class="col-md-4">
+			                	<h4>{$state}</h4>
+		                    	State
+	                		</div>
+	                		<div class="col-md-4">
+			                	<h4>{$zip_code}</h4>
+		                    	Zipcode
+	                		</div>
+	                	</div>
 	                </div>
 	            </div>
 	            {/}
