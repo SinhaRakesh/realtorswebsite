@@ -1,5 +1,5 @@
 <div class="{$class}" style="{$style}" id="{$_name}">
-    <div class="row">
+    <div class="row recordlister">
     {rows}{row}
         <div class="col-md-4 col-sm-12 col-xs-12 col-lg-4">
             <div class="item">
@@ -23,8 +23,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="icon"><i><b>{$property_status}</b></i></div>
-                        <div class="iconleft"><strong>Featured</strong></div>
+                        <div class="ribbonflatbox icon">
+                            <div class="ribbonflat">
+                                <span>{$property_status}</span>
+                            </div>
+                        </div>
+                        <div class="ribbonbox">
+                            <div class="ribbon">
+                                <span>featured</span>
+                            </div>
+                        </div>
                         <img src="{$profile_image}" alt="" onerror="this.src='websites/realtors/www/images/no-image-placeholder-small.png'">
                     </a>
                 </div>
