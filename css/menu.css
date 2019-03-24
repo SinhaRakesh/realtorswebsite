@@ -838,3 +838,7 @@ iframe{
 .recordlister .col-md-4{
   margin-bottom:20px; 
 }
+
+.field-error-text{
+  color: rgb(156, 9, 11);
+}
