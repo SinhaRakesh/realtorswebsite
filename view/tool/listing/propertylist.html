@@ -1,16 +1,14 @@
-<div class="{$class}" style="{$style}" id="{$_name}">
+<div class="{$class} sectionpropertylist" style="{$style}" id="{$_name}">
     {$header}
     {rows}{row}
-    <div class="row" style="padding: 15px;background:white;">
+    <div class="row" style="padding: 15px;background:white;cursor: pointer;" onclick="window.location='{$list_detail_page_url}';">
         <div class="col-md-5">
             <figure class="room_pic">
-            <a href="#">
                 <div class="label label-primary" style="font-size:14px">{$property_type} {$property_status}</div> 
-                <img src="{$profile_image}" alt="{$title}" onerror="this.src='websites/realtors/www/images/no-image-placeholder-small.png'" class="img-responsive"></a>
-                <span class="wow zoomIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
-                    <sup>Rs</sup>
-                    <h5 style="color:white;font-weight: bold;">{$price}</h5>
-                </span>
+                <img propertytype="{$property_status}" src="{$profile_image}" alt="{$title}" onerror="defaultImage(this);" class="img-responsive">
+                <div class="wow zoomIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;background-color:#9c090b;padding:10px 5px; ">
+                    <div style="color:white;font-weight: bold;">Price  <i class="fa fa-rupee"></i> {$price}</div>
+                </div>
             </figure>
         </div>
         <div class="col-md-6 col-md-offset-1">
@@ -68,7 +66,9 @@
                         <i class="fa fa-calendar">&nbsp;{$created_date}</i>
                     </div>
                 </div>
-                <a href="{$detail_url}" target="_blank" class="btn_1_outline">Read more</a>
+                <div style="padding-top:10px;">
+                    <button href="" class="btn_1_outline">Read more</button>
+                </div>
             </div>
         </div>
     </div>

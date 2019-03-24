@@ -59,13 +59,11 @@ a(this),c=b.data("retinaReplace"),f=a.extend({},a.fn.retinaReplace.defaults,b.da
 
 
 /*Image Error Option*/
-function defaultImage(img_obj){
-
+defaultImage = function(img_obj){
 	if($(img_obj).attr('propertytype') == "For Sell"){
 		img_obj.src='websites/realtors/www/images/for-sell-placeholder.jpg';
 	}else if($(img_obj).attr('propertytype') == "For Rent"){
 		img_obj.src='websites/realtors/www/images/for-rent-placeholder.jpg';
-		console.log('hello');
 	}else{
 		img_obj.src='websites/realtors/www/images/no-image-placeholder-small.png';
 	}
