@@ -865,3 +865,8 @@ a#close_in {display:block;position:absolute;right:15px;top:10px;width:20px;heigh
 .field-error-text{
   color: rgb(156, 9, 11);
 }
+
+.recordlister .item .image img{
+  width: 100%;
+  height:280px;
+}
