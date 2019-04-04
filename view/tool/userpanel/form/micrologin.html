@@ -2,12 +2,9 @@
 	<a href="{$login_url}" style="cursor:pointer; cursor: hand; max-width:600px;">Login</a>
 {/}
 {logout_wrapper}
-	<div class="row ">
-		<div class="col-md-10">
-			<h4>Welcome {$username}</h4>
-		</div>
-		<div class="col-md-2">
-			<a class="btn btn-danger" href="{$logout_url}">logout</a>
-		</div>
+	<div class="pull-right">
+		<h4>Welcome {$username}
+		&nbsp;<a class="btn btn-danger pull-right" href="{$logout_url}">logout</a>
+		</h4>
 	</div>
 {/}
