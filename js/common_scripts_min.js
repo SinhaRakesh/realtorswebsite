@@ -68,3 +68,14 @@ defaultImage = function(img_obj){
 		img_obj.src='websites/realtors/www/images/no-image-placeholder-small.png';
 	}
 }
+
+defaultSliderImage = function(img_obj){
+	if($(img_obj).attr('propertytype') == "For Sell"){
+		img_obj.src='websites/realtors/www/images/ur_slider_default_sell_pic.jpg';
+	}else if($(img_obj).attr('propertytype') == "For Rent"){
+		img_obj.src='websites/realtors/www/images/ur_slider_default_rent_pic.jpg';
+	}else{
+		img_obj.src='websites/realtors/www/images/no-image-placeholder-small.png';
+	}
+}
+
