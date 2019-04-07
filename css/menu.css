@@ -687,6 +687,13 @@ a#close_in {display:block;position:absolute;right:15px;top:10px;width:20px;heigh
   max-height:450px;
 }
 
+@media only screen and (max-width: 600px){
+  .homeslider.carousel_in .image img{
+    width: 100%;
+    height:200px;
+  }  
+}
+
 .homeslider.carousel_in .owl-controls .owl-dots{
   display: none !important;
 }
