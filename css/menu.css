@@ -703,6 +703,9 @@ a#close_in {display:block;position:absolute;right:15px;top:10px;width:20px;heigh
     padding: 3px;
     font-size: 10px;
   }
+  .loginpage{
+    margin-top:40px !important;
+  }
 }
 
 .homeslider.carousel_in .owl-controls .owl-dots{
@@ -895,4 +898,17 @@ a#close_in {display:block;position:absolute;right:15px;top:10px;width:20px;heigh
 }
 .select2.select2-container.select2-container--default{
   width:100%;
+}
+
+#front_login_xepan_base_tool_userpanel .panel-body{
+  margin-top:5px !important; 
+  margin-bottom:5px !important;
+}
+#front_login_xepan_base_tool_userpanel .panel-heading.text-center{
+  padding: 10px !important;
+}
+
+.field-mandatory{
+  font-size:6px;
+  color:red;
 }
